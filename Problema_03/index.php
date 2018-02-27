@@ -9,7 +9,7 @@
 
 include_once "Class.php";
 
-$model = new CompleteRange();
+$model = new ClearPar();
 
 echo "((()";
 echo "<br>";

@@ -3,7 +3,7 @@
 /**
 *
 */
-class CompleteRange
+class ClearPar
 {
 
 
