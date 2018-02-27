@@ -11,9 +11,9 @@ include_once "Class.php";
 
 $model = new ClearPar();
 
-echo "((()";
+echo "Entrada = ((()";
 echo "<br>";
-echo $resultado = $model->build("((()");
+echo "Salida = ".$model->build("((()");
 
 ?>
 

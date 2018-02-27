@@ -11,9 +11,9 @@ include_once "Class.php";
 
 $model = new CompleteRange();
 
-echo "[55, 58, 60]";
+echo "Entrada = [55, 58, 60]";
 echo "<br>";
-echo $resultado = $model->build("[55, 58, 60]");
+echo "Salida = ".$model->build("[55, 58, 60]");
 
 ?>
 

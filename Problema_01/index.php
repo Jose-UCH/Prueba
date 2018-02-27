@@ -11,9 +11,9 @@ include_once "Class.php";
 
 $model = new ChangeString();
 
-echo "**Casa 52zzZZth";
+echo "Entrada = **Casa 52zzZZth";
 echo "<br>";
-echo $resultado = $model->build("**Casa 52zzZZth");
+echo "Salida = ".$model->build("**Casa 52zzZZth");
 
 ?>
 
