@@ -1,0 +1,44 @@
+{
+	"info": {
+		"name": "Prueba",
+		"_postman_id": "11aa555e-f72c-45ba-a63e-e81f5fc94213",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista_Empleados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8000/api/employees?salmin=1000&salmax=1200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"employees"
+					],
+					"query": [
+						{
+							"key": "salmin",
+							"value": "1000",
+							"equals": true
+						},
+						{
+							"key": "salmax",
+							"value": "1200",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
