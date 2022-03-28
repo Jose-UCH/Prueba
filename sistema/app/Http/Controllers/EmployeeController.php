@@ -57,9 +57,9 @@ class EmployeeController extends Controller
             unlink($ruta);
         }
 
-        $request->session()->put('search', $request
-                ->has('search') ? $request->get('search') : ($request->session()
-                ->has('search') ? $request->session()->get('search') : ''));
+        // $request->session()->put('search', $request
+        //         ->has('search') ? $request->get('search') : ($request->session()
+        //         ->has('search') ? $request->session()->get('search') : ''));
 
         $employees = new Employee();
 
